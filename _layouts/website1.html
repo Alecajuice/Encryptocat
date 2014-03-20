@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="icon" type="image/png" href="/assets/img/small.png" />
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>{{ page.title }}</title>
+    <meta name="viewport" content="width=device-width">
+
+    <!-- syntax highlighting CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/main.css">
+
+    <!-- foundation css -->
+    <link rel="stylesheet" href="/assets/foundation/css/foundation.css">
+
+    <!-- normalize css-->
+    <link rel="stylesheet" href="/assets/css/normalize.css">
+
+    <style type="text/css">
+      h1, h2 {
+        display: inline; }
+
+      a {
+        color: #757575;
+        hover: #545454; }
+
+      body {
+        margin: 0;
+        padding: 0; }
+
+      .site {
+        width: 100%; }
+
+      .top-bar-section ul li h1:hover > a {
+        background: #545454 !important; }
+
+      .top-bar-section ul li:hover > a {
+        background: #545454 !important; }
+
+      .row {
+        width: 80%; }
+
+    </style>
+  </head>
+  <body>
+
+    <div class="site" style="position:relative;top:-55px">
+      <div class="header">
+
+        <!-- top BAR -->
+        <nav class="top-bar" id="topbar">
+          <ul class="title-area">
+            <li class="toggle-topbar menu-icon"><a href="#"><span>2 SMAL</span></a></li>
+          </ul>
+
+          <section class="top-bar-section">
+	    <!-- All tabs on left side -->
+	    <ul class="left">
+	      <li class="name">
+		<h1>
+		  <a href="index.html"><img src="/assets/img/medium.png" width="25" height="25"></img>
+		    Encryptocat</a></h1>
+              </li>
+	    </ul>
+
+            <!-- All tabs on right side  -->
+            <ul class="right">
+
+              <!-- Encrypt tab -->
+              <li class="name">
+                <a href="encrypt.html">Encrypt Messages</a>
+	      </li>
+              <li class="divider"></li>
+
+	      <!-- Decrypt tab -->
+	      <li class="name">
+                <a href="decrypt.html">Decrypt Messages</a>
+              </li>
+              <li class="divider"></li>
+
+              <!-- Store messages -->
+              <li class="name">
+		<a href="store.html">Store Messages</a>
+	      </li>
+              <li class="divider"></li>
+	      
+	      <!-- Retrieve messages -->
+              <li class="name">
+                <a href="retrieve.html">Retrieve Messages</a>
+	      </li>
+            </ul>
+
+          </section>
+
+        </nav>
+
+      </div>
+
+      <br />
+
+      {{ content }}
+
+      <br />
+
+      <div class="footer">
+	<div class="row">
+	  <div class="large-5 columns">
+	    <div align="left">
+	      <br />
+	      <h5 class="subheader">Site was made by Rafi, Alex, and Kevin</h5>
+	    </div>
+	  </div>
+
+	  <div class="large-2 columns">
+	    <div align="center">
+	      <img src="/assets/img/large.png" width="100" height="100"></img>
+	    </div>
+	  </div>
+	  
+	  <div class="large-5 columns">
+	    <div align="right">
+	      <br />
+	      <h5 class="subheader">Don't let the NSA read YOUR private messages</h5>
+	    </div>
+	  </div>
+
+	</div>
+      </div>
+    </div>
+  </body>
+</html>

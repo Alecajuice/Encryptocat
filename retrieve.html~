@@ -1,0 +1,13 @@
+---
+layout: website
+title: Retrieve Messages | Encryptocat
+---
+<div class="row">
+  <div class="12 columns">
+    <h5>Retrieve a Message</h5>
+    <form id="encrypt">
+      File Password: <input type="text" id="cuskey" autofocus /><br />
+      <a href="#" onclick="" class="small button secondary">Retrieve!</a>
+    </form>
+  </div>
+</div>

@@ -1,0 +1,17 @@
+---
+layout: website
+title: Encrypt | Encryptocat
+---
+<script type="text/javascript" src="/javascript/encrypt.js"></script>
+<script type="text/javascript" src="/javascript/phrase.js"></script>
+<div class="row">
+  <div class="12 columns">
+    <h5>Encrypt a Message</h5>
+    <form id="encrypt">
+      <span id="f1text">Custom Key (leave blank to generate random alpha-numeric key):</span><input type="text" id="cuskey" />
+      <a href="" class="tiny button secondary">Generate a Phrase</a><br />
+      <span id="f2text">Text to Encrypt:</span><textarea autofocus style="height:500px" form="encrypt" rows="10" cols="50" id="text"></textarea><br />
+      <a href="javascript:encrypt();" class="small button secondary">Encrypt!</a>
+    </form>
+  </div>
+</div>

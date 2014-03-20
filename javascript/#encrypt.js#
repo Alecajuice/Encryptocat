@@ -1,0 +1,38 @@
+)%95);
+	}    
+    }
+    var output = charify(textASCII);
+    document.getElementById("text").value = output;
+}
+
+function randomString() {
+    var str = "";
+    for (var i = 0; i < 10; i++) {
+	str += String.fromCharCode(Math.floor(Math.random() * 75) + 48);
+    }
+    return str;
+}
+
+function ASCIIfy(str) {
+    var ascii = new Array();
+    for (var i = 0; i < str.length; i++) {
+	ascii[i] = str.charAt(i).charCodeAt(0);
+    }
+    return ascii;
+}
+
+function numberify(str) {
+    var num = "";
+    for (var i = 0; i < str.length; i++) {
+	num += (str.charCodeAt(i)%10);
+    }
+    return num;
+}
+
+function charify(ASCIIArray) {
+    var str = "";
+    for (var i = 0; i < ASCIIArray.length; i++) {
+	str += String.fromCharCode(ASCIIArray[i]);
+    }
+    return str;
+}
